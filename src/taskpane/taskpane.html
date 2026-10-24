@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Parvez Formatter</title>
+  <script type="text/javascript" src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js"></script>
+  <style>
+    body { font-family: "Segoe UI", sans-serif; font-size: 14px; margin: 0; padding: 16px; color: #222; }
+    h1 { font-size: 17px; margin: 0 0 12px; }
+    button { width: 100%; padding: 10px; font-size: 14px; background: #2b579a; color: #fff; border: 0; cursor: pointer; }
+    button:disabled { background: #999; cursor: wait; }
+    label { display: block; margin: 12px 0; }
+    pre { white-space: pre-wrap; background: #f3f3f3; padding: 8px; min-height: 80px; font-size: 12px; }
+  </style>
+</head>
+<body>
+  <h1>Document Formatter</h1>
+  <label>
+    <input type="checkbox" id="lEq" checked />
+    'l' ইটালিক শুধু সমীকরণের (EQ) ভেতরে
+  </label>
+  <button id="run">Format Document</button>
+  <pre id="status"></pre>
+</body>
+</html>
